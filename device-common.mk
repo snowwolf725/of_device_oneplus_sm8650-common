@@ -43,7 +43,7 @@ RELAX_USES_LIBRARY_CHECK := true
 AB_OTA_UPDATER := true
 
 # VNDK
-PRODUCT_TARGET_VNDK_VERSION := 31
+PRODUCT_TARGET_VNDK_VERSION := 32
 
 # Virtual A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
